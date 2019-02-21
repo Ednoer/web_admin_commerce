@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 21, 2019 at 07:01 AM
+-- Generation Time: Feb 21, 2019 at 08:49 AM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.2.13
 
@@ -19,28 +19,20 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `product`
+-- Database: `ecom`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `product table`
+-- Table structure for table `product_ecom`
 --
 
-CREATE TABLE `product table` (
+CREATE TABLE `product_ecom` (
   `id` int(11) NOT NULL,
-  `name` varchar(40) NOT NULL,
-  `price` float NOT NULL
+  `name` varchar(50) NOT NULL,
+  `price` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `product table`
---
-
-INSERT INTO `product table` (`id`, `name`, `price`) VALUES
-(1, 'Iphone 5', 1000),
-(2, 'Galaxy S9', 1500);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

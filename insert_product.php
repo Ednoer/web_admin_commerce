@@ -1,5 +1,5 @@
 <?php
 
-$connection = new mysqli ("localhost")
+$connection = new mysqli ("localhost", "root", "", "ecom")
         
         
